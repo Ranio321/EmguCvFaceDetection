@@ -1,0 +1,16 @@
+﻿<Window x:Class="EmguFaceDetection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmguFaceDetection"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+    <Grid>
+        <ComboBox x:Name="Camera" HorizontalAlignment="Left" Height="22" Margin="150,34,0,0" VerticalAlignment="Top" Width="133"/>
+        <Image x:Name="MyImage" HorizontalAlignment="Left" Height="305" Margin="105,85,0,0" VerticalAlignment="Top" Width="497"/>
+        <Button x:Name="Detect" Click="Detect_Click" Content="Detect" HorizontalAlignment="Left" Margin="459,36,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="626,36,0,0" TextWrapping="Wrap" x:Name="CThread" VerticalAlignment="Top" Width="123"/>
+
+    </Grid>
+</Window>
